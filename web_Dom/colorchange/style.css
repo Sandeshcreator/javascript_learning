@@ -1,0 +1,31 @@
+#grey {
+    height: 95px;
+    width: 95px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+#red {
+    height: 95px;
+    width: 95px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  #yellow {
+    height: 95px;
+    width: 95px;
+    background-color: #aeff00;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  #pink {
+    height: 95px;
+    width: 95px;
+    background-color: #ff00d9;
+    border-radius: 50%;
+    display: inline-block;
+  }

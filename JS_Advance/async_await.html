@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let test= async =>"hello";    
+        // test.then((result) => {
+        //     console.log(result)  
+        // })
+        
+
+    async function test() {
+       try {
+        const response = await fetch('./student_data.json')
+        const students = await response.json();
+        return students;
+        
+       } catch (error) {
+        console.log(error)
+
+       }
+
+
+        //convert to one 
+        // return(await fetch('./student_data.json')).json();
+    }
+    
+test().then((res)=>{
+    console.log(res)
+})
+    
+
+
+
+    </script>
+    
+</body>
+</html>
